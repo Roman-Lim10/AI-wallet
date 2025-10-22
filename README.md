@@ -1,14 +1,14 @@
-AI Wallet 
 AI Wallet is a full-stack web app that analyzes any Ethereum wallet and uses a language model to explain its on-chain behavior in plain English.
 
-Built for the "Create your Agentic Future" Hackathon, this project showcases how AI agents can interpret blockchain data for transparency, insight, and user-friendly interaction.
+Built for the "Create your Agentic Future" Hackathon for Encode AI, this project showcases how AI agents can interpret blockchain data for transparency, insight, and user-friendly interaction.
 
-Features
+Features:
 Enter any Ethereum wallet address
 Fetches recent transactions from Etherscan
 Uses AI (via Hugging Face) to summarize activity
 Displays wallet ETH balance
 Clean, responsive user interface
+
 How It Works
 User enters an Ethereum wallet address in the web interface
 The backend:
@@ -20,6 +20,7 @@ The frontend displays both the ETH balance and AI summary
 Tech Stack
 Frontend: HTML, CSS, JavaScript (vanilla)
 Backend: Node.js + Express
+
 APIs:
 Etherscan (wallet data + balance)
 Hugging Face for language generation
